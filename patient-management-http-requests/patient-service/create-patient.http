@@ -1,0 +1,12 @@
+### POST request for creating patient
+POST http://localhost:8080/patient/save
+Content-Type:  application/json
+
+{
+    "name": "Sangeeta Shah",
+    "address": "A/24 Blue Diamond",
+    "dateOfBirth": "1965-10-01",
+    "registrationDate": "2025-03-12"
+}
+
+###

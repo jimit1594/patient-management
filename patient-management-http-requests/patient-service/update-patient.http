@@ -1,0 +1,12 @@
+### Update existing patient request
+PUT http://localhost:8080/patient/update/123e4567-e89b-12d3-a456-426614174001
+Content-Type: application/json
+
+{
+  "name": "Jane M. Smith",
+  "address": "456 Elm St, Shelbyville, California",
+  "dateOfBirth": "1978-03-12",
+  "registrationDate": "2025-03-12"
+}
+
+###
